@@ -1,0 +1,8 @@
+# to go to the sys user dir
+cd %USERPROFILE%
+
+# dir where we saved our file
+cd yolodemo
+
+# opening our file thru python
+python demo.py

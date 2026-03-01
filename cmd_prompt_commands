@@ -12,12 +12,12 @@ python demo.py
 venv\Scripts\activate         #activate virtual env
 python -m pip install --upgrade pip
 pip install cmake
-pip install dlib              # error: 👉 https://cmake.org/download/
-                                       Download: Windows x64 Installer (.msi)
-                                       👉 https://visualstudio.microsoft.com/visual-cpp-build-tools/
-                                       Download Build Tools.
-                                       During install select:
-                                       ✔ Desktop development with C++
-                                       ✔ MSVC v142 or v143
-                                       ✔ Windows 10 SDK 
-
+pip install dlib              # error(windows): 👉 https://cmake.org/download/
+                                                Download: Windows x64 Installer (.msi)
+                                                👉 https://visualstudio.microsoft.com/visual-cpp-build-tools/
+                                                Download Build Tools.
+                                                During install select:
+                                                ✔ Desktop development with C++
+                                                ✔ MSVC v142 or v143
+                                                ✔ Windows 10 SDK 
+  

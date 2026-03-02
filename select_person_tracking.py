@@ -9,7 +9,7 @@ model = YOLO("yolov8n.pt")  # CPU inference
 # ----------------------------
 # Video stream
 # ----------------------------
-url = "http://10.109.143.41:4747/video"
+url = "http://192.168.162.243:4747/video"
 cap = cv2.VideoCapture(url)
 
 if not cap.isOpened():

@@ -11,3 +11,8 @@ python demo.py
 #create virtural env
 venv\Scripts\activate         #activate virtual env
 python -m pip install --upgrade pip
+pip install insightface
+pip install onnxruntime
+pip install opencv-python
+pip install numpy
+pip install ultralytics

@@ -8,8 +8,8 @@ cd yolodemo
 python demo.py
 
 #installation process
-#create virtural env
-venv\Scripts\activate         #activate virtual env
+python -m venv venv           #create virtual env in Windows
+venv\Scripts\activate         #activate virtual env in Windows
 python -m pip install --upgrade pip
 pip install insightface
 pip install onnxruntime

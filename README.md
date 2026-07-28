@@ -39,13 +39,15 @@
 ```
 
 ## 5. Execution Plan (Step-by-Step Implementation)
-1. **Phase 1: Vision Setup** 
+```
+  **Phase 1: Vision Setup** 
    * Connect the onboard camera to the Jetson Nano to capture live video.
-2. **Phase 2: Detection & Tracking** 
+   **Phase 2: Detection & Tracking** 
    * Run lightweight OpenCV/PyTorch AI models to detect humans in real-time.
-3. **Phase 3: Identity Locking** 
+   **Phase 3: Identity Locking** 
    * Implement tracking logic to lock onto a specific identity and re-identify them after occlusions.
-4. **Phase 4: Autonomous Flight** 
+   **Phase 4: Autonomous Flight** 
    * Feed coordinates through the ROS-MAVLink bridge to guide the drone while avoiding obstacles.
-5. **Phase 5: Continuous Correction** 
+   **Phase 5: Continuous Correction** 
    * Establish a continuous feedback loop between the Jetson's AI predictions and the Pixhawk's stable flight parameters to ensure smooth following.
+```

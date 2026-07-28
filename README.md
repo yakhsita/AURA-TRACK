@@ -2,11 +2,11 @@
 
 🚀 **Autonomous Aerial Support for Public Safety & Emergency Response**
 
-### 1. Project Overview
+## 1. Project Overview
 * **Objective:** Build an autonomous, identity-aware drone to assist emergency responders.
 * **Core Capabilities:** Locks onto specific identities, recovers from visual occlusions, adapts to crowds, and safely isolates AI control from flight mechanics.
 
-### 2. Hardware Components
+## 2. Hardware Components
 1. **Flight Controller:** Pixhawk 2.4.8 (Handles safety-critical flight)
 2. **Companion Computer:** NVIDIA Jetson Orin Nano (Handles heavy AI processing)
 3. **Vision:** RPI Camera
@@ -15,13 +15,13 @@
 6. **Power:** High energy-density Lithium-Ion Battery
 7. **Failsafe:** Manual Radio Transmitter
 
-### 3. Software Stack & Tools
+## 3. Software Stack & Tools
 * **Vision & AI:** Python, OpenCV, PyTorch, TensorRT, ByteTrack
 * **Autonomy:** ArduPilot / ArduCopter, Mission Planner
 * **Middleware & Comm:** ROS 2, MAVProxy, pymavlink
 * **Pre-Flight Testing:** Ubuntu/WSL environment running Gazebo and ArduPilot SITL (Highly recommended for safe, simulated testing before deploying to physical hardware).
 
-### 4. Process Flowchart (System Architecture)
+## 4. Process Flowchart (System Architecture)
 ```text
 [RPI Camera] 
     │
@@ -38,7 +38,7 @@
     └── 3. Failsafes 
 ```
 
-### 5. Execution Plan (Step-by-Step Implementation)
+## 5. Execution Plan (Step-by-Step Implementation)
 1. **Phase 1: Vision Setup** 
    * Connect the onboard camera to the Jetson Nano to capture live video.
 2. **Phase 2: Detection & Tracking** 
